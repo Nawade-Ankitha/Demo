@@ -1,0 +1,91 @@
+/* Tag selector */
+/* p{
+    color:yellow;
+}
+
+/*    * universal selector-selects all html elements on page */
+/* *{
+    margin: 10;
+    background-color:black;
+    color: aliceblue;
+}
+
+/* class selector */
+/* .para{
+    color:palevioletred;
+} */ */
+
+/* ID selector */
+/* #id{
+color: blueviolet;
+} */
+
+/* Grouping Selectors */
+/* .para,#id{
+    color: green;
+} */
+
+/* select only p tags with the class para */
+    /* p.para{
+    color: goldenrod; 
+} */
+
+/* descendent selector (space)*/
+/* all the p tags which r descendents of div tag */
+ div p{
+    color: orange;
+}
+div .para{
+    color: tomato;
+}
+.container #id{
+    color: tan;
+}
+ ul li{
+    background-color: aliceblue;
+    color: purple;
+}
+
+/* child selector(>) */
+ span>p{
+    color: springgreen;
+} 
+
+/* adjacent sibling selector(+) (p next to div,not child) */
+div + p{
+    color: aqua;
+}
+
+/* (general sibling selector )all p tags which r siblings of div tag(~) */
+div ~p{
+    color: teal;
+}
+
+
+/* pseudo class selectors(hover,active,link,visited) */
+.btn{
+   background-color: orange;
+    color:black;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* unvisited links */
+ a:link{
+    color:orange;
+}
+/* visited links */
+ a:visited{ 
+    color: blue;
+} 
+ 
+.link:active{
+    color: aqua;
+}  
+
+
+/* pseudo element selectors(::first-line,before,after,first-letter,::marker) */
